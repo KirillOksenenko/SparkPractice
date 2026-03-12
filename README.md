@@ -21,10 +21,9 @@ Bronze (MinIO) → Silver (MinIO) → Gold (MinIO) → ClickHouse
 
 ## Как запустить
 docker-compose up -d
-```
 
 Также добавь в `.gitignore` чтобы не закоммитить секреты:
-```
+
 .env
 *.jar
 s3_storage/
